@@ -1,0 +1,43 @@
+중세 마을 로그인 UI 사용법
+=============================
+
+🚀 빠른 시작:
+------------
+1. Unity 메뉴에서 "Tools" > "Open Login Scene" 선택
+2. Unity 메뉴에서 "Tools" > "Setup Login Scene" 선택  
+3. 플레이 버튼 누르면 신비로운 3D 배경과 로그인 UI가 자동 생성됩니다!
+
+🔧 에디터에서 미리보기:
+--------------------
+- "Tools" > "Create Login UI Now (Editor Preview)" - 전체 씬 생성
+- "Tools" > "Create 3D Background Only" - 3D 배경만 생성
+→ 플레이하지 않고도 Scene 뷰에서 확인 가능
+
+🎮 기본 로그인 정보:
+------------------
+- 사용자명: admin  
+- 비밀번호: password
+
+✨ 특징:
+--------
+- 🏰 신비로운 3D 중세 배경 (어두운 분위기, 안개 효과)
+- 🌙 분위기 있는 조명과 라이팅
+- 🎨 한글 폰트 자동 적용 (Noto Sans KR)
+- 🎯 중세풍 갈색 테마 UI (분홍색 문제 해결됨)
+- 📱 반응형 UI (1920x1080 기준)
+- ✅ 입력 검증 및 상태 메시지
+- 🔧 자동 씬 설정
+
+📁 주요 파일:
+-----------
+- Scripts/LoginManager.cs - 로그인 로직
+- Scripts/LoginUIController.cs - UI 생성
+- Scripts/LoginSceneDesigner.cs - 3D 배경 생성 (NEW!)
+- Scripts/LoginSceneInitializer.cs - 자동 설정
+- Editor/LoginSceneSetup.cs - 에디터 도구
+
+🔧 문제 해결:
+-----------
+- 분홍색으로 보이는 경우: Unity의 기본 UI 스프라이트 사용으로 해결
+- 폰트가 적용되지 않는 경우: FontApplier가 자동으로 Noto Sans KR 적용
+- UI가 안 보이는 경우: Tools 메뉴에서 다시 설정
